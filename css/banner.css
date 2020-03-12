@@ -1,0 +1,88 @@
+/*Banner*/
+
+#banner{
+    background: url(../images/bg_slider.gif) center bottom repeat;
+    color: white;
+    padding: 110px 0 40px;
+}
+#banner h4{
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+    font-family: 'Changa One', cursive;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#btn-menu{
+    display: inline-block;
+    font: 30px 'Changa One', cursive;
+    background-color: #FA97C2;
+    line-height: 36px;
+    padding: 14px 62px;
+    border-radius: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 30px 0;
+    color: white;
+}
+
+#dots{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    height: 19px;
+    line-height: 19px;
+}
+#dots li{
+    width: 19px;
+    height: 19px;
+    border-radius: 19px;
+    display: inline-block;
+    background: white;
+    margin: 0 2px;
+    position: relative;
+}
+
+#dots li span {
+    border-radius: 9px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#dots li.active span,#dots li:hover span {
+    background: #73c926;
+    box-shadow: 0;
+}
+
+@media screen and  (min-width: 768px) {
+    #menu li{
+        margin-left: 25px;
+        padding: 0px;
+    }
+    #logo{
+        position: relative;
+    }
+    #logo:after{
+        position: absolute;
+        content: "";
+        background: url(../images/logo_bg.png) 0 0 no-repeat;
+        width: 188px;
+        height: 133px;
+        bottom: -140px;
+        left: -2px
+
+    }
+
+    #frm-search:after{
+        position: absolute;
+        content: "";
+        background: url(../images/search_bg.png);
+        width: 230px;
+        height: 44px;
+        left: 10px;
+        bottom: -70px;
+    }
+}
