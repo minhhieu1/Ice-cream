@@ -1,200 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>1888121 - Ice-cream</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>1888121 - Ice-cream</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Changa+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/1888121.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+  </head>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Changa+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/1888121.css">
-  <link rel="stylesheet" href="css/banner.css">
-</head>
-
-<body>
-  <!--Header-->
-  <header class="container">
-    <nav class="navbar navbar-expand-sm navbar-light px-0">
-      <a class="navbar-brand" href="index.html"  id='logo'>
-        <img src="images/logo.png" alt="Ice-cream">
-      </a>
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#menu"
-        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="menu">
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contacts</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0" id='frm-search'>
-          <div class="input-group input-group-sm">
-            <input class="form-control" type="text" placeholder="Search" id='searchword'>
-            <div class="input-group-append">
-              <button class="btn" type="submit" id='btnsearch'></button>
+  <body>
+    <!--Header-->
+      <header class="container">
+        <nav class="navbar navbar-expand-sm navbar-light px-0">
+          <a class="navbar-brand" href="index.html" id="logo">
+            <img src="images/logo.png" alt="Ice-cream" />
+          </a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-toggle="collapse"
+            data-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" id="frm-search">
+              <div class="input-group input-group-sm">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Search"
+                  id="searchword"
+                />
+                <div class="input-group-append">
+                  <button class="btn" type="submit" id="btnsearch"></button>
+                </div>
+              </div>
+            </form>
+            <div id="social">
+              <a href="#" class="btn twitter"></a>
+              <a href="#" class="btn facebook"></a>
             </div>
           </div>
-        </form>
-        <div id="social">
-          <a href="#" class='btn twitter'></a>
-          <a href="#" class='btn facebook'></a>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!--Banner-->
-  <div class='container-fluid' id='banner'>
-    <div class="container text-center">
-      <h4 class="text-white">
-        Tasty cakes and ice-cream <br> for everyone
-      </h4>
-      <div>
-        <a href="#" id='btn-menu'>see our menu</a>
-      </div>
-      <div>
-        <ul id='dots'>
-          <li class='active'><span></span></li>
-          <li><span></span></li>
-          <li><span></span></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!--Main-->
-  <div class="container">
-    <div class="row my-5">
-      <div class='col text-center'>
-        <img src="images/icon-1.png" alt="">
-        <h4>Coffee</h4>
-        <div class="pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-        <a href="coffee.html" class="readmore">Read more</a>
-      </div>
-      <div class='col text-center'>
-        <img src="images/icon-2.png" alt="">
-        <h4>Drinks</h4>
-        <div class="pb-2">Voluptate corporis, rem in cum hic sit maiores.</div>
-        <a href="coffee.html" class="readmore">Read more</a>
-      </div>
-      <div class='col text-center'>
-        <img src="images/icon-3.png" alt="">
-        <h4>Cakes</h4>
-        <div class="pb-2">Molestiae modi ullam corrupti rerum cupiditate nesciunt dolor!</div>
-        <a href="coffee.html" class="readmore">Read more</a>
-      </div>
-      <div class='col text-center'>
-        <img src="images/icon-4.png" alt="">
-        <h4>Ice-cream</h4>
-        <div class="pb-2">Sequi aliquid voluptatibus beatae consectetur quisquam magnam id.</div>
-        <a href="coffee.html" class="readmore">Read more</a>
-      </div>
-    </div>
-  </div>
-  <!--About-->
-  <div class="container-fluid about py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9">
-          <h3 class="text-white">About us</h3>
+        </nav>
+      </header>
+      <div id="content">
+      <!--Banner-->
+      <div class="container-fluid" id="banner">
+        <div class="container text-center">
+          <h4 class="text-white">
+            Tasty cakes and ice-cream <br />
+            for everyone
+          </h4>
           <div>
-            <img src="images/icon-about.png" alt="">
-            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consectetur enim numquam? Labore natus
-              aspernatur perferendis, possimus magnam consequuntur repellat recusandae? Laborum tempore porro quas, ea
-              voluptatibus assumenda et quia.</div>
+            <a href="#" id="btn-menu">see our menu</a>
           </div>
-          <div class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui consequatur dicta neque veritatis dolore itaque
-            assumenda libero quod accusamus. Beatae?
-            <a href="#" class="readmore">Read more</a></div>
-        </div>
-        <div class="col-md-3">
-          <form action="post" id='frm-signup'>
-            <h3>Newslettter <br>Sign Up</h3>
-            <div>Please, write an e-mail</div>
-            <div><input type="text" name="email" id='email'></div>
-            <button type="submit">SIGN UP</button>
-          </form>
+          <div>
+            <ul id="dots">
+              <li class="active"><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+            </ul>
+          </div>
         </div>
       </div>
+      <!--Main-->
+      <div class="container">
+        <div class="row my-5" id="products"></div>
+      </div>
+      <!--About-->
+      <div class="container-fluid about py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <h3 class="text-white">About us</h3>
+              <div>
+                <img src="images/icon-about.png" alt="" />
+                <div>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem consectetur enim numquam? Labore natus aspernatur
+                  perferendis, possimus magnam consequuntur repellat recusandae?
+                  Laborum tempore porro quas, ea voluptatibus assumenda et quia.
+                </div>
+              </div>
+              <div class="pt-3">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+                consequatur dicta neque veritatis dolore itaque assumenda libero
+                quod accusamus. Beatae?
+                <a href="#" class="readmore">Read more</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <form action="post" id="frm-signup">
+                <h3>Newslettter <br />Sign Up</h3>
+                <div>Please, write an e-mail</div>
+                <div><input type="text" name="email" id="email" /></div>
+                <button type="submit">SIGN UP</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--News-->
+      <div class="container py-5">
+        <h3>News</h3>
+        <div class="row" id="news"></div>
+      </div>
     </div>
-  </div>
-  <!--News-->
-  <div class="container py-5">
-    <h3>News</h3>
-    <div class='row'>
+    <!--Footer-->
+    <footer class="container-fluid">
+      <nav>
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+      <div>
+        Ice-cream &copy; 2019 |<a href="#" class="text-uppercase"
+          >Privacy policy</a
+        >
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/handlebars-v4.7.3.js"></script>
+    <script src="js/1888121.js"></script>
+    <script id="products-template" type="text/x-handlebars-template">
+      {{#each data}}
+      <div class='col text-center'>
+        <img src="{{thumbpath}}" alt="">
+        <h4>{{name}}</h4>
+        <div class="pb-2">{{summary}}</div>
+        <a href="#" class="readmore" onclick='loadData("products/{{id}}", "#content", "#details-template");'>Read more</a>
+      </div>
+      {{/each}}
+    </script>
+    <script id="news-template" type="text/x-handlebars-template">
+      {{#each data}}
       <div class='col'>
         <div class="row">
           <div class="col-sm-4">
-            <div class="date">25. <br> Dec.</div>
-            <a href="#" class="readmore">Read more</a>
+            <div class="date">{{date}}</div>
+            <a href="#" class="readmore" onclick='loadData("news/{{id}}", "#content", "#details-template");'>Read more</a>
           </div>
           <div class="col-sm-8">
-            <h4>Accumsan</h4>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem.</div>
+            <h4>{{name}}</h4>
+            <div>{{summary}}</div>
           </div>
         </div>
       </div>
-      <div class='col'>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="date">25. <br> Dec.</div>
-            <a href="#" class="readmore">Read more</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Accumsan</h4>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem.</div>
-          </div>
-        </div>
-      </div>
-      <div class='col'>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="date">25. <br> Dec.</div>
-            <a href="#" class="readmore">Read more</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Accumsan</h4>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Footer-->
-  <footer class="container-fluid">
-    <nav>
-      <ul>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
-      </ul>
-    </nav>
-    <div>
-      Ice-cream &copy; 2019 |<a href="#" class="text-uppercase">Privacy policy</a>
-    </div>
-  </footer>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
+      {{/each}}
+    </script>
+    <script id="details-template" type="text/x-handlebars-template">
+      <div class='container-fluid' id='small-banner'></div>
 
+      <!--Details-->
+      {{#each data}}
+      <div class="container py-5">
+        <h3 class="text-dark">{{name}}</h3>
+        <div>{{{description}}}</div>
+      </div>
+      {{/each}}
+    </script>
+    <script>
+      $(document).ready(function() {
+        loadData("products", "#products", "#products-template");
+        loadData("news", "#news", "#news-template");
+      });
+    </script>
+  </body>
 </html>
